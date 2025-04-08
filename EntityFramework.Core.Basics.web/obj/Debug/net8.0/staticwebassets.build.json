@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "GZojLIq2UiN91eVlNV/2ZzxIAaEhHefBsSkOyjW7RiU=",
+  "Source": "EntityFramework.Core.Basics.web",
+  "BasePath": "_content/EntityFramework.Core.Basics.web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

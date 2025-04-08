@@ -1,0 +1,15 @@
+D:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.Core.Basics.Repo\obj\Debug\net8.0\EntityFramework.Core.Basics.Repo.csproj.AssemblyReference.cache
+D:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.Core.Basics.Repo\obj\Debug\net8.0\EntityFramework.Core.Basics.Repo.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.Core.Basics.Repo\obj\Debug\net8.0\EntityFramework.Core.Basics.Repo.AssemblyInfoInputs.cache
+D:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.Core.Basics.Repo\obj\Debug\net8.0\EntityFramework.Core.Basics.Repo.AssemblyInfo.cs
+D:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.Core.Basics.Repo\obj\Debug\net8.0\EntityFramework.Core.Basics.Repo.csproj.CoreCompileInputs.cache
+D:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.Core.Basics.Repo\obj\Debug\net8.0\EntityFramework.Core.Basics.Repo.sourcelink.json
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.Core.Basics.Repo\bin\Debug\net8.0\EntityFramework.Core.Basics.Repo.deps.json
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.Core.Basics.Repo\bin\Debug\net8.0\EntityFramework.Core.Basics.Repo.runtimeconfig.json
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.Core.Basics.Repo\bin\Debug\net8.0\EntityFramework.Core.Basics.Repo.dll
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.Core.Basics.Repo\bin\Debug\net8.0\EntityFramework.Core.Basics.Repo.pdb
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.Core.Basics.Repo\obj\Debug\net8.0\EntityFramework.Core.Basics.Repo.dll
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.Core.Basics.Repo\obj\Debug\net8.0\refint\EntityFramework.Core.Basics.Repo.dll
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.Core.Basics.Repo\obj\Debug\net8.0\EntityFramework.Core.Basics.Repo.pdb
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.Core.Basics.Repo\obj\Debug\net8.0\EntityFramework.Core.Basics.Repo.genruntimeconfig.cache
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.Core.Basics.Repo\obj\Debug\net8.0\ref\EntityFramework.Core.Basics.Repo.dll

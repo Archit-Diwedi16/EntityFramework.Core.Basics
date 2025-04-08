@@ -7,4 +7,5 @@ public class Post
 
     public int BlogId { get; set; } // Foreign key to Blog
     public Blog Blog { get; set; } // Navigation property to Blog
+    public List<PostTag> PostTags {get;set;}
 }

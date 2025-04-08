@@ -1,0 +1,16 @@
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.core.Basics.Service\obj\Debug\net8.0\EntityFramework.core.Basics.Service.csproj.AssemblyReference.cache
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.core.Basics.Service\obj\Debug\net8.0\EntityFramework.core.Basics.Service.GeneratedMSBuildEditorConfig.editorconfig
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.core.Basics.Service\obj\Debug\net8.0\EntityFramework.core.Basics.Service.AssemblyInfoInputs.cache
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.core.Basics.Service\obj\Debug\net8.0\EntityFramework.core.Basics.Service.AssemblyInfo.cs
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.core.Basics.Service\obj\Debug\net8.0\EntityFramework.core.Basics.Service.csproj.CoreCompileInputs.cache
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.core.Basics.Service\obj\Debug\net8.0\EntityFramework.core.Basics.Service.sourcelink.json
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.core.Basics.Service\bin\Debug\net8.0\EntityFramework.core.Basics.Service.deps.json
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.core.Basics.Service\bin\Debug\net8.0\EntityFramework.core.Basics.Service.dll
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.core.Basics.Service\bin\Debug\net8.0\EntityFramework.core.Basics.Service.pdb
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.core.Basics.Service\bin\Debug\net8.0\EntityFramework.Core.Basics.Repo.dll
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.core.Basics.Service\bin\Debug\net8.0\EntityFramework.Core.Basics.Repo.pdb
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.core.Basics.Service\obj\Debug\net8.0\EntityFr.C68D0D45.Up2Date
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.core.Basics.Service\obj\Debug\net8.0\EntityFramework.core.Basics.Service.dll
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.core.Basics.Service\obj\Debug\net8.0\refint\EntityFramework.core.Basics.Service.dll
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.core.Basics.Service\obj\Debug\net8.0\EntityFramework.core.Basics.Service.pdb
+d:\dotnet-prep\EntityFramework.Core.Basics\EntityFramework.core.Basics.Service\obj\Debug\net8.0\ref\EntityFramework.core.Basics.Service.dll

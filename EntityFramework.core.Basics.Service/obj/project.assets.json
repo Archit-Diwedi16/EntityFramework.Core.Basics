@@ -1042,11 +1042,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.core.Basics.Service\\EntityFramework.core.Basics.Service.csproj",
+      "projectUniqueName": "d:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.core.Basics.Service\\EntityFramework.core.Basics.Service.csproj",
       "projectName": "EntityFramework.core.Basics.Service",
-      "projectPath": "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.core.Basics.Service\\EntityFramework.core.Basics.Service.csproj",
+      "projectPath": "d:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.core.Basics.Service\\EntityFramework.core.Basics.Service.csproj",
       "packagesPath": "C:\\Users\\archi\\.nuget\\packages\\",
-      "outputPath": "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.core.Basics.Service\\obj\\",
+      "outputPath": "d:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.core.Basics.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
