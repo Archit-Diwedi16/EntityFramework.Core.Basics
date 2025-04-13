@@ -19,32 +19,32 @@ namespace EntityFramework.Core.Basics.Repo
         public DbSet<Post> BlogSettings { get; set; }
         public DbSet<Post> PostTags { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        if (!optionsBuilder.IsConfigured)
         {
-            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=BlogsDb;Username=archi;Password=123456789"); // Replace with your PostgreSQL connection string
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer("Server=DESKTOP-CAIV8K1;Database=BlogsDb;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True"); // Replace with your PostgreSQL connection string
+            }
         }
-    }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Blog>()
-            .HasOne(b=>b.blogSettings)
-            .WithOne(bs=>bs.Blog)
-            .HasForeignKey<BlogSettings>(bs=>bs.BlogId);
+            .HasOne(b => b.blogSettings)
+            .WithOne(bs => bs.Blog)
+            .HasForeignKey<BlogSettings>(bs => bs.BlogId);
 
             modelBuilder.Entity<PostTag>()
-            .HasKey(pt=>new{pt.PostId,pt.TagId});
+            .HasKey(pt => new { pt.PostId, pt.TagId });
 
             modelBuilder.Entity<PostTag>()
-            .HasOne(pt=>pt.Post)
-            .WithMany(p=>p.PostTags)
-            .HasForeignKey(pt=>pt.PostId);
+            .HasOne(pt => pt.Post)
+            .WithMany(p => p.PostTags)
+            .HasForeignKey(pt => pt.PostId);
 
             modelBuilder.Entity<PostTag>()
-            .HasOne(pt=>pt.Tag)
-            .WithMany(t=>t.PostTags)
-            .HasForeignKey(pt=>pt.TagId);
+            .HasOne(pt => pt.Tag)
+            .WithMany(t => t.PostTags)
+            .HasForeignKey(pt => pt.TagId);
         }
     }
 }

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.web\\EntityFramework.Core.Basics.web.csproj": {}
+    "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.web\\EntityFramework.Core.Basics.web.csproj": {}
   },
   "projects": {
-    "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.Repo\\EntityFramework.Core.Basics.Repo.csproj": {
+    "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.Repo\\EntityFramework.Core.Basics.Repo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.Repo\\EntityFramework.Core.Basics.Repo.csproj",
+        "projectUniqueName": "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.Repo\\EntityFramework.Core.Basics.Repo.csproj",
         "projectName": "EntityFramework.Core.Basics.Repo",
-        "projectPath": "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.Repo\\EntityFramework.Core.Basics.Repo.csproj",
-        "packagesPath": "C:\\Users\\archi\\.nuget\\packages\\",
-        "outputPath": "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.Repo\\obj\\",
+        "projectPath": "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.Repo\\EntityFramework.Core.Basics.Repo.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.Repo\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\archi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,7 +40,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -60,13 +56,13 @@
               "target": "Package",
               "version": "[8.0.11, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[8.0.1, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[8.0.11, )"
             }
           },
           "imports": [
@@ -80,30 +76,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.core.Basics.Service\\EntityFramework.core.Basics.Service.csproj": {
+    "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.core.Basics.Service\\EntityFramework.core.Basics.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.core.Basics.Service\\EntityFramework.core.Basics.Service.csproj",
+        "projectUniqueName": "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.core.Basics.Service\\EntityFramework.core.Basics.Service.csproj",
         "projectName": "EntityFramework.core.Basics.Service",
-        "projectPath": "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.core.Basics.Service\\EntityFramework.core.Basics.Service.csproj",
-        "packagesPath": "C:\\Users\\archi\\.nuget\\packages\\",
-        "outputPath": "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.core.Basics.Service\\obj\\",
+        "projectPath": "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.core.Basics.Service\\EntityFramework.core.Basics.Service.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.core.Basics.Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\archi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -117,8 +123,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.Repo\\EntityFramework.Core.Basics.Repo.csproj": {
-                "projectPath": "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.Repo\\EntityFramework.Core.Basics.Repo.csproj"
+              "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.Repo\\EntityFramework.Core.Basics.Repo.csproj": {
+                "projectPath": "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.Repo\\EntityFramework.Core.Basics.Repo.csproj"
               }
             }
           }
@@ -133,7 +139,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -149,30 +155,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.web\\EntityFramework.Core.Basics.web.csproj": {
+    "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.web\\EntityFramework.Core.Basics.web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.web\\EntityFramework.Core.Basics.web.csproj",
+        "projectUniqueName": "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.web\\EntityFramework.Core.Basics.web.csproj",
         "projectName": "EntityFramework.Core.Basics.web",
-        "projectPath": "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.web\\EntityFramework.Core.Basics.web.csproj",
-        "packagesPath": "C:\\Users\\archi\\.nuget\\packages\\",
-        "outputPath": "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.web\\obj\\",
+        "projectPath": "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.web\\EntityFramework.Core.Basics.web.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.web\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\archi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -186,11 +202,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.Repo\\EntityFramework.Core.Basics.Repo.csproj": {
-                "projectPath": "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.Repo\\EntityFramework.Core.Basics.Repo.csproj"
+              "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.Repo\\EntityFramework.Core.Basics.Repo.csproj": {
+                "projectPath": "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.Core.Basics.Repo\\EntityFramework.Core.Basics.Repo.csproj"
               },
-              "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.core.Basics.Service\\EntityFramework.core.Basics.Service.csproj": {
-                "projectPath": "D:\\dotnet-prep\\EntityFramework.Core.Basics\\EntityFramework.core.Basics.Service\\EntityFramework.core.Basics.Service.csproj"
+              "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.core.Basics.Service\\EntityFramework.core.Basics.Service.csproj": {
+                "projectPath": "F:\\interview_prep\\EntityFramework.Core.Basics\\EntityFramework.core.Basics.Service\\EntityFramework.core.Basics.Service.csproj"
               }
             }
           }
@@ -205,7 +221,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -215,7 +231,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             }
           },
           "imports": [
@@ -229,6 +249,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -237,7 +275,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
